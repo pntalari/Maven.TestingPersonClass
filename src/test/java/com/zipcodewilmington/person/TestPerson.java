@@ -88,7 +88,7 @@ public class TestPerson {
     public void testConstructorWithGradWork() {
         //Given
         boolean expectedIsWork = true;
-        boolean expectedIsGrad = false;
+        boolean expectedIsGrad = true;
         //When
         Person obj = new Person(expectedIsGrad, expectedIsWork);
 

@@ -21,7 +21,7 @@ public class Person {
         this.school = "Temple";
         this.height = 5.8;
         this.isGraduate = true;
-        this.isWorking = false;
+        this.isWorking = true;
     }
 
     public Person(int age) {
@@ -39,7 +39,7 @@ public class Person {
 
     public Person(boolean isGraduate, boolean isWorking) {
         setGrad(isGraduate);
-        setGrad(isWorking);
+        setWork(isWorking);
     }
 
     public Person(char gender) {
